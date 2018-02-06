@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		BDA1A34C2029B20800667070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A34B2029B20800667070 /* AppDelegate.swift */; };
 		BDA1A34E2029B20800667070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A34D2029B20800667070 /* ViewController.swift */; };
-		BDA1A3512029B20800667070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA1A34F2029B20800667070 /* Main.storyboard */; };
 		BDA1A3532029B20800667070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA1A3522029B20800667070 /* Assets.xcassets */; };
-		BDA1A3562029B20800667070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA1A3542029B20800667070 /* LaunchScreen.storyboard */; };
+		BDA1A35E2029B21600667070 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A35D2029B21600667070 /* Game.swift */; };
+		BDA1A3602029B21E00667070 /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A35F2029B21E00667070 /* Penguin.swift */; };
+		BDA1A3622029B22300667070 /* Orca.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A3612029B22300667070 /* Orca.swift */; };
+		BDA1A3642029B2B200667070 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A3632029B2B200667070 /* Size.swift */; };
+		BDA1A3662029B33400667070 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A3652029B33400667070 /* Board.swift */; };
+		BDA1A3682029B86000667070 /* Inhabitant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A3672029B86000667070 /* Inhabitant.swift */; };
+		BDA1A36A2029DC0A00667070 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A3692029DC0A00667070 /* CollectionViewCell.swift */; };
+		BDA1A36C2029EE7800667070 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A36B2029EE7800667070 /* Cell.swift */; };
+		BDA1A36E2029F8FA00667070 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1A36D2029F8FA00667070 /* Position.swift */; };
+		BDA1A370202A425A00667070 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA1A36F202A425A00667070 /* Launch Screen.storyboard */; };
+		BDA1A372202A426700667070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA1A371202A426700667070 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDA1A3482029B20800667070 /* Waterworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waterworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA1A34B2029B20800667070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA1A34D2029B20800667070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDA1A3502029B20800667070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDA1A3522029B20800667070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BDA1A3552029B20800667070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDA1A3572029B20800667070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA1A35D2029B21600667070 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		BDA1A35F2029B21E00667070 /* Penguin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
+		BDA1A3612029B22300667070 /* Orca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orca.swift; sourceTree = "<group>"; };
+		BDA1A3632029B2B200667070 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		BDA1A3652029B33400667070 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		BDA1A3672029B86000667070 /* Inhabitant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inhabitant.swift; sourceTree = "<group>"; };
+		BDA1A3692029DC0A00667070 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BDA1A36B2029EE7800667070 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		BDA1A36D2029F8FA00667070 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		BDA1A36F202A425A00667070 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BDA1A371202A426700667070 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +74,19 @@
 			children = (
 				BDA1A34B2029B20800667070 /* AppDelegate.swift */,
 				BDA1A34D2029B20800667070 /* ViewController.swift */,
-				BDA1A34F2029B20800667070 /* Main.storyboard */,
+				BDA1A3692029DC0A00667070 /* CollectionViewCell.swift */,
 				BDA1A3522029B20800667070 /* Assets.xcassets */,
-				BDA1A3542029B20800667070 /* LaunchScreen.storyboard */,
 				BDA1A3572029B20800667070 /* Info.plist */,
+				BDA1A35D2029B21600667070 /* Game.swift */,
+				BDA1A3672029B86000667070 /* Inhabitant.swift */,
+				BDA1A35F2029B21E00667070 /* Penguin.swift */,
+				BDA1A3612029B22300667070 /* Orca.swift */,
+				BDA1A3632029B2B200667070 /* Size.swift */,
+				BDA1A36D2029F8FA00667070 /* Position.swift */,
+				BDA1A3652029B33400667070 /* Board.swift */,
+				BDA1A36B2029EE7800667070 /* Cell.swift */,
+				BDA1A36F202A425A00667070 /* Launch Screen.storyboard */,
+				BDA1A371202A426700667070 /* Main.storyboard */,
 			);
 			path = Waterworld;
 			sourceTree = "<group>";
@@ -123,9 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA1A3562029B20800667070 /* LaunchScreen.storyboard in Resources */,
+				BDA1A372202A426700667070 /* Main.storyboard in Resources */,
+				BDA1A370202A425A00667070 /* Launch Screen.storyboard in Resources */,
 				BDA1A3532029B20800667070 /* Assets.xcassets in Resources */,
-				BDA1A3512029B20800667070 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +163,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA1A36E2029F8FA00667070 /* Position.swift in Sources */,
 				BDA1A34E2029B20800667070 /* ViewController.swift in Sources */,
+				BDA1A3622029B22300667070 /* Orca.swift in Sources */,
+				BDA1A36A2029DC0A00667070 /* CollectionViewCell.swift in Sources */,
+				BDA1A35E2029B21600667070 /* Game.swift in Sources */,
+				BDA1A3602029B21E00667070 /* Penguin.swift in Sources */,
+				BDA1A3662029B33400667070 /* Board.swift in Sources */,
+				BDA1A3682029B86000667070 /* Inhabitant.swift in Sources */,
+				BDA1A36C2029EE7800667070 /* Cell.swift in Sources */,
+				BDA1A3642029B2B200667070 /* Size.swift in Sources */,
 				BDA1A34C2029B20800667070 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BDA1A34F2029B20800667070 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDA1A3502029B20800667070 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BDA1A3542029B20800667070 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDA1A3552029B20800667070 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BDA1A3582029B20800667070 /* Debug */ = {
@@ -277,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QDAA9H5LH;
 				INFOPLIST_FILE = Waterworld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladimir.kavlakan..Waterworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QDAA9H5LH;
 				INFOPLIST_FILE = Waterworld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladimir.kavlakan..Waterworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
